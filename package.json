@@ -1,6 +1,7 @@
 {
   "name": "tic-tac-toe",
   "version": "0.1.0",
+  "homepage" : "http://imaginedtime.github.io/Tic-Tac-Toe",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -39,6 +40,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "homepage" : "http://imaginedtime.github.io/Tic-Tac-Toe"
+  }
 }

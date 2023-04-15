@@ -64,7 +64,7 @@ export default function Board() {
 
             <div className='board'>
                 {board.map((value, index) => {
-                    return <Box value={value} onclick={() => !value && handleClick(index)} />
+                    return <Box value={value} onclick={() => !value && handleClick(index)} key={index}/>
                 })}
             </div>
 
